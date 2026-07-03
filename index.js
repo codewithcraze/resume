@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 <meta charset="UTF-8">
 <title>Deepak Chaudhary - Resume</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+<style>
   :root{
     --ink:#1a1a1a;
     --sub:#4a4a4a;
@@ -20,7 +23,7 @@ app.get('/', (req, res) => {
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   body{
-    font-family:'Georgia','Times New Roman',serif;
+    font-family: "Poppins", 'Georgia','Times New Roman',serif;
     color:var(--ink);
     background:var(--bg);
     line-height:1.5;
@@ -44,7 +47,7 @@ app.get('/', (req, res) => {
     margin-bottom:4px;
   }
   .contact{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
     font-size:11px;
     color:var(--sub);
     letter-spacing:.2px;
@@ -54,7 +57,7 @@ app.get('/', (req, res) => {
 
   section{margin-bottom:10px;}
   h2{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
     font-size:11.5px;
     text-transform:uppercase;
     letter-spacing:1.2px;
@@ -71,7 +74,7 @@ app.get('/', (req, res) => {
   }
 
   .skills-grid{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size:11px;
     line-height:1.4;
   }
@@ -122,7 +125,7 @@ app.get('/', (req, res) => {
     margin-bottom:0;
   }
   .proj-stack{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size:10.3px;
     color:var(--accent);
     font-style:italic;
@@ -140,7 +143,7 @@ app.get('/', (req, res) => {
   .edu-left b{font-size:12px;}
   .edu-left div.school{font-style:italic;font-size:11px;color:var(--sub);}
   .edu-date{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size:10.5px;
     color:var(--sub);
   }
@@ -164,7 +167,7 @@ app.get('/', (req, res) => {
     <div class="contact">
       +91-7037913778 <span>|</span> Noida, Uttar Pradesh, India <span>|</span>
       <a href="mailto:codewithdeepak.in@gmail.com">codewithdeepak.in@gmail.com</a> <span>|</span>
-      <a href="#">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/codewithcraze/">LinkedIn</a>
     </div>
   </header>
 
@@ -213,7 +216,7 @@ app.get('/', (req, res) => {
     <h2>Projects</h2>
 
     <div class="entry">
-      <div class="proj-title">AI-Powered Customer Support Platform</div>
+      <div class="proj-title">AI-Powered Customer Support Platform (Loki AI Travomint.com)</div>
       <div class="proj-stack">Node.js, Express.js, React.js, MongoDB, Socket.IO, ChatGPT API</div>
       <ul>
         <li>Developed an AI-powered customer support platform by integrating the ChatGPT API to automate customer query resolution.</li>
